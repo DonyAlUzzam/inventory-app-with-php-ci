@@ -1,0 +1,148 @@
+body {
+    background-color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000;
+   }
+
+   nav {
+    margin:auto;
+    text-align: center;
+    width: 100%;
+   } 
+
+   nav ul ul {
+    display: none;
+   }
+
+   nav ul li:hover > ul{
+   display: block;
+   width: 200px;
+   }
+
+   nav ul {
+    background: #53bd84;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+   }
+
+   nav ul:after {
+    content: ""; 
+    clear:both; 
+    display: block;
+   }
+
+   nav ul li{
+    float:left;
+   }
+
+   nav ul li:hover{
+    background:#666;
+   }
+
+   nav ul li:hover a{
+    color:#fff;
+   }
+
+   nav ul li a{
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+   }
+
+   nav ul ul{
+    background: #53bd84;
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top:100%;
+   }
+
+   nav ul ul li{
+    float:none;
+    border-top: 1px soild #53bd84;
+    border-bottom: 1px solid #53bd84;
+    position: relative;
+   }
+
+   nav ul ul li a{
+    padding: 15px 40px;
+    color: #fff;
+   }
+
+   nav ul ul li a:hover{
+    background-color: #666;
+   }
+
+   nav ul ul ul{
+    position: absolute;
+    left: 100%;
+    top: 0;
+   }
+
+   h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 450px;
+	background: cyan;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+.kotak_add{
+	width: 350px;
+	background: cyan;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+.tombol_daftar{
+	background: #ad04f0;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
